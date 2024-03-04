@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+
+    "moduleResolution": "Node",
+    "baseUrl": ".",
+
+    "downlevelIteration": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "paths": { "*": ["node_modules/*"] }
+  },
+  "include": ["src/**/*"]
+}
