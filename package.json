@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "ts-node src/decorator"
+    "start": "ts-node src/reflect-metadata"
   },
   "keywords": [],
   "author": "",
@@ -13,5 +13,8 @@
     "@types/node": "^20.11.24",
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.2.1"
   }
 }
